@@ -1,3 +1,9 @@
+body{
+    font-family: Arial;
+    margin: 0;
+    overflow-x: auto;
+}
+
 .corazul{
     background-color: aquamarine;
     height: 100vw;
