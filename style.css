@@ -26,3 +26,81 @@ body{
     "cafê cafê"
     "footer footer";
 }
+
+.Amarelo{
+    background-color: yellow;
+    grid-area: Amarelo;
+}
+
+.PáginaBanner{
+    align-items: center;
+    background-image: url(banner.png);
+    background-size: 100% 100 vw;
+    display: flex;
+    grid-area: PáginaBanner;
+    justify-content: center;
+    max-width: 700px;
+    width: 100vw;
+}
+
+.pessoal img{  
+    width: 3vw;
+    height: 3vw;
+}
+
+span{
+    color: #2acb6d;
+    border-radius: 1px;
+    font-size: 1em;  
+}
+
+#abc p{
+    color: grey;
+    text-align: left;
+}
+
+#email{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%
+}
+
+input{
+    border-radius: 5px 0 0 5px;
+    border-width: 0;
+    font-size: 1em;
+    height: 2.5em;
+    padding: 0;
+}
+
+button{
+    background-color: #2acb6d;
+    background-color: #2acb6d;
+    border: #2acb6d;
+    border-radius: 0px 5px 5px 0;
+    font-size: 1em;
+    height: 2.5em;
+    padding:0;
+    width: 6em;
+}
+
+.Mão img{
+    align-items: baseline;
+    display: flex;
+    height: auto;
+}
+
+.classepalavras{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 2em;
+    margin: 0 2em 0 6em;
+    margin-bottom: 15%;
+    max-height: 700px;
+
+}
+
+
