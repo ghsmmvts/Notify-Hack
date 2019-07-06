@@ -159,3 +159,75 @@ header{
     justify-content: center;
     width: 5em;
 }
+
+section{
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    grid-area: section;
+    justify-content: space-between;
+    padding: 15vw;
+    width: 70vw;
+}
+
+.cafê{
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    grid-area: cafê;
+}
+
+.cafê p{
+    align-items: center;
+    display: flex;
+    justify-items: center;
+}
+
+footer{
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    grid-area: footer;
+    height: 100%;
+    justify-content: space-evenly;
+    padding: 0 15vw;
+    width: 70vw;
+}
+
+footer a{
+    align-items: center;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5vw;
+    width: 90vw;
+}
+
+h3{
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h4{
+    margin: 1em;
+}
+
+h6{
+    margin: 0.5em;
+}
