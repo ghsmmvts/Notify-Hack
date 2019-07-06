@@ -35,12 +35,12 @@ body{
 .PáginaBanner{
     align-items: center;
     background-image: url(banner.png);
-    background-size: 100% 100 vw;
+    background-size: cover;
     display: flex;
     grid-area: PáginaBanner;
     justify-content: center;
-    max-width: 700px;
-    width: 100vw;
+    /* max-width: 700px; */
+    width: 100%;
 }
 
 .pessoal img{  
@@ -99,8 +99,22 @@ button{
     line-height: 2em;
     margin: 0 2em 0 6em;
     margin-bottom: 15%;
-    max-height: 700px;
+    /* max-height: 700px; */
+}
 
+.Logotipo{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 10em;
+}
+
+h1{
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    font-weight: lighter;
 }
 
 
