@@ -211,3 +211,62 @@ footer{
 .olhaofooter a:hover{
     color: lightgreen;
 }
+
+main{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    grid-area: main;
+    height: 400px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+ 
+.lago{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    height: 50%;
+    justify-content: flex-start;
+    margin-top: 50px;
+    width: 30%;
+}
+
+.lago p:first-child{
+    font-size: 14pt;
+}
+
+.lago p:nth-child(2){
+    color: gray;
+    font-size: 10pt;
+}
+
+.lagoemail{
+    display: flex;
+}
+
+.lagoemail .email{
+    border: white;
+    border-radius: 15px 0 0 15px;
+    height: 40px;
+    padding: 2px 20px;
+    width: 240px;
+}
+
+.lagoemail .metallica{
+    background-color: lightgreen;
+    border: lightgreen solid;
+    border-radius: 0 15px 15px 0px;
+    color: white;
+    font-size: 10pt;
+    height: 50px;
+    width: 115px; 
+}
+
+.lagoemail .metallica:hover{
+    cursor: pointer;
+}
+
+.main-video{
+    margin-top: 50px;
+}
