@@ -18,7 +18,7 @@ body::-webkit-scrollbar{
                         "section section section section"
                         "footer footer footer footer";
     grid-template-columns: 25vw 25vw 20vw 30vw;
-    grid-template-rows: 10vh 500px 60vh 15vh;   
+    grid-template-rows: 300px 60vh 350px 300px 50px;   
 }
 
 #aplicativos{
