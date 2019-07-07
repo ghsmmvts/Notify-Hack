@@ -129,7 +129,7 @@ span{
     width: 65px;
 } */
 
-.abc .asas .holanda .tomate{
+.abc .asas{
     align-items: center;
     background-color: lightgreen;
     border-radius: 100%;
@@ -181,4 +181,33 @@ aside{
     grid-area: aside;
     justify-content: space-around;
     width: 100%;
+}
+
+footer{
+    align-items: center;
+    background-color: lightgrey;
+    display: flex;
+    grid-area: footer;
+    height: 120px;
+    justify-content: center;
+    width: 100%;
+}
+
+.olhaofooter{
+    align-items: center;
+    display: flex;
+    height: 45px;
+    justify-content: space-around;
+    width: 30%;
+}
+    
+.olhaofooter a{
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    text-decoration: none;
+}
+
+.olhaofooter a:hover{
+    color: lightgreen;
 }
