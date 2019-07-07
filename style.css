@@ -20,8 +20,10 @@ body{
     "Amarelo Amarelo Amarelo Amarelo Amarelo"
     "PáginaBanner PáginaBanner PáginaBanner PáginaBanner PáginaBanner"
     "PáginaBanner PáginaBanner PáginaBanner PáginaBanner PáginaBanner"
-    "header header header header header"
-    "header header header header header"
+    /* "header header header header header"
+    "header header header header header" */
+    "main main main main main"
+    "main main main main main"
     "section section section section section"
     "section section section section section"
     "cafê cafê cafê cafê cafê"
@@ -137,7 +139,7 @@ h1{
     cursor: pointer;
 }
 
-header{
+main{
     background-color: white;
     display: flex;
     grid-area: header;
@@ -254,9 +256,12 @@ h6{
         grid-template-areas:
         
         "PáginaBanner Páginabanner Páginabanner Páginabanner Páginabanner"
+        /* "header header header header header"
         "header header header header header"
-        "header header header header header"
-        "header header header header header"
+        "header header header header header" */
+        "main main main main main"
+        "main main main main main"
+        "main main main main main"
         "section section section section section"
         "section section section section section"
         "section section section section section"
@@ -290,7 +295,7 @@ h6{
         display: none;
     }
     
-    header{
+    main{
         display: flex;
         flex-direction: column;
     }
