@@ -270,3 +270,65 @@ main{
 .main-video{
     margin-top: 50px;
 }
+
+section{
+    display: flex;
+    grid-area: section;
+    height: 425px;
+    justify-content: center;
+    width: 100%;
+}
+
+.asection{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center.
+}
+
+.primeiraparte{
+    color: lightgrey;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10pt;
+    font-style: oblique;
+    text-align: center;
+    text-decoration: none;
+    width: 55%;
+}
+
+.responsávek{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt;
+}
+
+.photos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.photosphotos{
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+.photosphotos img{
+    height: 100%;
+}
+
+.photosphotos img:hover{
+    cursor: pointer;
+}
+
+.textotitulo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15pt;
+}
+
+.conteudofinal{
+    color: grey;
+    font-size: 10pt;
+}
+
+@media(max-width: 700px){}
